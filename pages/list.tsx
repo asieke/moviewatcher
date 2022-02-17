@@ -1,7 +1,11 @@
 import { db } from '../lib/db';
 import { useState } from 'react';
 
-const List = ({ emoji }) => {
+interface ListProps {
+  emoji: string;
+}
+
+const List = ({ emoji }: ListProps) => {
   const [page, setPage] = useState<number>(1);
   const perPage = 50;
 
