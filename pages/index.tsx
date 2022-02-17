@@ -49,10 +49,8 @@ const Home = ({ title, emoji, foundStr, notFoundStr }: HomeProps) => {
           href={`data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>${emoji}</text></svg>`}
         />
       </Head>
-      <h1 className='text-5xl font-extrabold mb-6 text-slate-200'>
-        {emoji}
-        {title}
-        {emoji}
+      <h1 className='text-2xl sm:text-5xl font-extrabold mb-6 text-slate-200'>
+        {`${emoji} ${title} ${emoji}`}
       </h1>
       <Search movies={movies} updateMovie={updateMovie} selectMovie={selectMovie} />
       {movie && <Found found={found} foundStr={foundStr} notFoundStr={notFoundStr} />}

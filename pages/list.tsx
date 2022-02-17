@@ -16,10 +16,8 @@ const List = ({ emoji }: ListProps) => {
 
   return (
     <div className='text-center'>
-      <h1 className='text-5xl font-extrabold mb-6 text-slate-200'>
-        {emoji}
-        Top Movies
-        {emoji}
+      <h1 className='text-2xl sm:text-5xl  font-extrabold mb-6 text-slate-200'>
+        {`${emoji} Top Movies ${emoji}`}
       </h1>
       <table className='justify-around mb-4 w-[250px] mx-auto text-slate-200 font-bold'>
         <tr>
