@@ -1,5 +1,5 @@
 {
-  "name": "meat",
+  "name": "movie",
   "private": true,
   "scripts": {
     "dev": "next dev",

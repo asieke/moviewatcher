@@ -9,7 +9,7 @@ const Search = ({ movies = [], updateMovie, selectMovie }: SearchProps) => {
     <div className='w-full'>
       <input
         type='search'
-        className='px-5 py-3 mt-4 rounded-md text-3xl w-full'
+        className='px-5 py-3 mt-4 rounded-md text-3xl text-center w-full shadow-md shadow-black'
         placeholder='Movie'
         onChange={(e) => updateMovie(e.target.value)}
       ></input>
