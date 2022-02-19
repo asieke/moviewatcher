@@ -1,4 +1,7 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# MovieWatcher
+
+Query a list of movies using the movie database API
+https://developers.themoviedb.org/3
 
 ## Getting Started
 
